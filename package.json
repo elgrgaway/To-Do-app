@@ -1,0 +1,20 @@
+{
+  "name": "final-project-js",
+  "version": "1.0.0",
+  "description": "![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-loader": "^5.0.0",
+    "sass": "^1.71.1",
+    "vite": "^5.1.5"
+  },
+  "dependencies": {
+    "sortablejs": "^1.15.2"
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <d class="">
+    <!--darkIsActive-->
+    <img src="images/bg-desktop-light.jpg" class="background" />
+    <div class="container">
+      <div class="heading">
+        <h1>Todo</h1>
+        <button class="modeButton">
+          <img src="images/icon-sun.svg" class="modeImg" alt="change mode" />
+        </button>
+        <button class="modeButton buttonIsDark">
+          <img src="images/icon-moon.svg" class="modeImg" alt="change mode" />
+        </button>
+      </div>
+      <div class="inputContainer">
+        <div class="inputContainer__square square"></div>
+        <form>
+          <input
+            class="input"
+            type="text"
+            name="input"
+            id="input"
+            placeholder="Enter a task"
+          />
+          <button class="submit" type="submit"></button>
+        </form>
+      </div>
+      <ul class="taskList">
+        <!-- <li class="">
+          taskList--isActive 
+          <button class="checkbox square">
+            <img class="checkMark" src="images/icon-check.svg" alt="" />
+          </button>
+          <p class="taskContent">lklsdjlkfdl</p>
+          <button class="cross">
+            <img src="images/icon-cross.svg" alt="" />
+          </button>
+        </li>
+
+        <div class="info">
+          <span>items left <span class="numberOfTasks"></span></span>
+          <div class="infoFilter">
+            <button>All</button>
+            <button>Active</button>
+            <button>Completed</button>
+          </div>
+          <button>Clear Completed</button>
+        </div> -->
+      </ul>
+      <div class="infoFilter--mobile">
+        <button class="filterButtonPop" data-filter="all">All</button>
+        <button class="filterButtonPop" data-filter="active">Active</button>
+        <button class="filterButtonPop" data-filter="completed">
+          Completed
+        </button>
+      </div>
+      <p class="dragDrop">Drag and drop to reorder list</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
